@@ -1,0 +1,78 @@
+div {
+    /* border: solid lightpink;*/
+}
+
+body {
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headeri-pilt {
+    background-image: url("assets/headeri_pilt.svg");
+    background-size: cover;
+}
+
+/* COLORS */
+
+.bg-sinine,
+.card_footer {
+    background-color: #081A34;
+}
+
+.tx-punane {
+    color: #CC0A0A;
+}
+
+.card_footer {
+
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0.3em;
+    margin: 0;
+}
+
+.et-card {border:solid #ABAFB2 1px;
+    padding: 0px;
+    min-width: 200px;
+}
+
+.et_colors img {height: 20%;
+display: inline-block;
+margin: 3px;
+padding-bottom: 0.3em;}
+
+/*--- small devices ---*/
+
+// Medium devices (tablets, 768px and up)
+
+@media screen and (max-width: 992px) {
+    .et-card     { min-width: 200px;
+        max-width: 240px;
+        background-color: rgb(128, 0, 51)
+        }
+  }
+
+  @media screen and (max-width: 992px) {
+    .et-card     { min-width: 130px;
+        max-width: 300px;      
+        background-color: rgb(0, 128, 0);
+
+    }
+    .card_footer {  font-size: 18px}
+  } 
+
+@media screen and (max-width: 600px) {
+    .et-card     { min-width: 130px;
+        max-width: 140px;    
+        background-color: rgb(128, 0, 51);
+
+    }
+    .card_footer {  font-size: 14px;
+    padding: 1 em;}
+
+  } 
+
