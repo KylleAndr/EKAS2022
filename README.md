@@ -8,4 +8,4 @@ vt tööleht MERBEST HOME
 
 
 1. Ma ei oska praegu liigutada menüüd paremale, nagu on figmas
-2. Ma ei oska bootstrapiga saavutada toodete näitamisel olukorda, et suurel ekraanil on neid reas kolm ja väikesel kaks. Tegin käsitsi css-s mingi gemüüse, aga ilmselt saab seda teha ilusamini ja ilma ise css kirjutamata?
+2. toote kaartide arv reas - sain katsetades kogemata paika, et mobiilis on reas kaks ja arvutis kolm; aga ma ei saa aru miks see paika läks. St ma ei saa aru mida see col-3 ja col-4 ikkagi täpselt näitavad ja kuidas käituvad.
